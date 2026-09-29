@@ -27,86 +27,112 @@ angular.module("angular", [])
                 
                 
                 /*************************************/
-                /**** PRIMERA PERSONA          *******/
-                /*** Cambiar datos             *******/
+                /**** PRIMERA PERSONA: usuaria*******/
                 /*************************************/
                 
                 
-				Id: 0,
-				Name: "Pedro",
-				Photo: "man.png",
-				Quote: "Carpe Diem",
-				Age: 32,
-				Occupation: "Comercial en empresa de automocion",
-				Family: "Con pareja desde hace 1 año",
-				Location: "Granada (Huetor Vega)",
-				Character: "Le gusta disfrutar del tiempo",
-				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 4 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 1 },
-					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 3 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 5 }
-				], 
-				Goals: ["Disfrutar del tiempo libre, viajar", "Cambiar a un trabajo más estable"],
-				Frustrations: ["le gusta la tecnología, pero siempre 'llama a un amigo' para resolver problemas", "Le gustaría tener más tiempo libre y leer más"],
-				Bio: "Es de Modril y vino a Granada para estudiar administración de empresas, pero no ha tenido grandes oportunidades de trabajo. LLeva 2 años contratado en la empresa actual. Aqui ha hecho buenos amigo en el trabajo y normalmente ser reunen para fiestas y a veces organizan viajes",
-				Tech: [
-					{ Name: "TIC/Internet", Value: 2 },
-					{ Name: "Movil", Value: 2 },
-					{ Name: "RRSS", Value: 3 },
-					{ Name: "Software", Value: 2 }
-					
-				], 
-                Contextos: "LLeva un tiempo preocupado y quiere desconectar Le gustaría dar una sorpresa a sus amigos para las vacaciones",  
-				PreferredChannels: [
-					{ Name: "Publicidad Tradicional", Value: 5 },
-					{ Name: "Online & Social Media", Value: 3 },
-					{ Name: "Recomendaciones & sugerencias", Value: 2 },
-					{ Name: "Persona confianza (amigos, boca a boca)", Value: 1 }
-				]
-			},
-			{	
-                
-                /*************************************/
-                /**** SEGUNDA PERSONA          *******/
-                /*** Cambiar datos             *******/
-                /*************************************/
-                
-                
-				Id: 1,
-				Name: "Monica Suarez",
-				Photo: "woman.png",
-				Quote: "A quotation that captures the essence of this person's personality",
-				Age: 17,
-				Occupation: "Searching for a cure for the Empress",
-				Family: "No parents, only family are the people who raised him.",
-				Location: "The Grassy Plains of Fantasia",
-				Character: "Strong, reliable and fearless.",
-				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 3 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 3 },
-					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 2 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 2 }
-				], 
-				Goals: ["The goals this user hopes to achieve.", "A task that needs to be completed.", "A life goal to be reached.", "An experience to be felt."],
-				Frustrations: ["The frustrations this user would like to avoid.", "The obstacle that prevents the user from achieving their goals.", "The problems with the solutions already available.", "The product or service which does not currently exist."],
-				Bio: "The bio should be a short paragraph to describe the user journey. It should include some of their history leading up to a current use case. It may be helpful to incorporate information listed across the template and add pertinent details that may have been left out. Highlight factors of the user's personal and professional life that make this user an ideal customer of your product.",
-				Tech: [
-					{ Name: "TIC/Internet", Value: 5 },
-					{ Name: "Mobile", Value: 3 },
-					{ Name: "RRSS", Value: 3 },
-					{ Name: "Software", Value: 5 }
-					
-				], 
-                Contextos:   "The goals this user hopes to achieve." ,
-				PreferredChannels: [
-					{ Name: "Publicidad Tradicional (Ads)", Value: 5 },
-					{ Name: "Online & Social Media", Value: 2 },
-					{ Name: "Recomendaciones & sugerencias", Value: 2 },
-					{ Name: "Persona confianza (amigos, boca a boca)", Value: 2 }
-				]
-			}
-		];
+
+    Id: 0,
+    Name: "Cristina López",
+    Photo: "woman.png",
+    Quote: "La tecnología debe hacerme la vida más fácil.",
+    Age:  28,
+    Occupation: "Estudiante de Diseño Gráfico",
+    Family: "Vive con su pareja y tiene un perro",
+    Location: "Granada",
+    Character: "Creativa, organizada y algo impaciente cuando una aplicación no es intuitiva.",
+
+    PersonalityTraits: [
+        { Name: "Introvertido/reservado Vs Extrovertido/activo", Value: 3 },
+        { Name: "Realista/práctico Vs Intuición/imaginativo", Value: 5 },
+        { Name: "Racional/analítico Vs Emocional/impulsivo", Value: 3 },
+        { Name: "Flemático/apático Vs Colérico/visceral", Value: 2 }
+    ],
+
+    Goals: [
+        "Encontrar rápidamente la información que necesita.",
+        "Utilizar aplicaciones sencillas y fáciles de entender.",
+        "Ahorrar tiempo en sus tareas diarias."
+    ],
+
+    Frustrations: [
+        "Las aplicaciones con demasiados menús y opciones.",
+        "Tener que registrarse para realizar acciones sencillas.",
+        "No encontrar ayuda cuando tiene un problema."
+    ],
+
+    Bio: "Laura tiene 28 años y estudia Diseño Gráfico mientras trabaja algunas tardes en una tienda. Utiliza el móvil para organizar sus actividades, consultar información y comunicarse con otras personas. Valora especialmente las interfaces claras, los textos breves y los procesos rápidos. Si una aplicación es complicada o tarda demasiado en cargar, deja de utilizarla.",
+
+    Tech: [
+        { Name: "TIC/Internet", Value: 5 },
+        { Name: "Móvil", Value: 5 },
+        { Name: "RRSS", Value: 4 },
+        { Name: "Software", Value: 3 }
+    ],
+
+    Contextos: "Utiliza la aplicación principalmente desde el móvil, durante sus desplazamientos o cuando tiene poco tiempo disponible.",
+
+    PreferredChannels: [
+        { Name: "Publicidad Tradicional", Value: 1 },
+        { Name: "Online & Social Media", Value: 5 },
+        { Name: "Recomendaciones & sugerencias", Value: 4 },
+        { Name: "Persona de confianza (amigos, boca a boca)", Value: 3 }
+    ]
+},
+
+{
+    /*************************************/
+    /**** SEGUNDA PERSONA: ADMINISTRADOR */
+    /*************************************/
+
+    Id: 1,
+    Name: "Rodrigo García",
+    Photo: "man.png",
+    Quote: "Una buena administración permite que todo funcione mejor.",
+    Age:  24,
+    Occupation: "Administrador de una plataforma web",
+    Family: "Casado y con dos hijos",
+    Location: "Málaga",
+    Character: "Responsable, metódico y preocupado por la seguridad de los datos.",
+
+    PersonalityTraits: [
+        { Name: "Introvertido/reservado Vs Extrovertido/activo", Value: 2 },
+        { Name: "Realista/práctico Vs Intuición/imaginativo", Value: 5 },
+        { Name: "Racional/analítico Vs Emocional/impulsivo", Value: 5 },
+        { Name: "Flemático/apático Vs Colérico/visceral", Value: 3 }
+    ],
+
+    Goals: [
+        "Gestionar correctamente las cuentas de los usuarios.",
+        "Detectar y solucionar los problemas de la plataforma.",
+        "Mantener segura y actualizada la información."
+    ],
+
+    Frustrations: [
+        "No disponer de información suficiente sobre los usuarios.",
+        "Recibir errores sin una explicación clara.",
+        "Tener que realizar muchas tareas repetitivas manualmente."
+    ],
+
+    Bio: "Carlos tiene 42 años y trabaja como administrador de una plataforma web. Se encarga de revisar los usuarios, actualizar contenidos y comprobar que el sistema funciona correctamente. Necesita acceder a un panel de administración claro, con información organizada y avisos sobre posibles errores. No suele utilizar aplicaciones desde el móvil para trabajar, por lo que prefiere utilizar un ordenador.",
+
+    Tech: [
+        { Name: "TIC/Internet", Value: 5 },
+        { Name: "Móvil", Value: 3 },
+        { Name: "RRSS", Value: 2 },
+        { Name: "Software", Value: 5 }
+    ],
+
+    Contextos: "Utiliza el panel de administración desde un ordenador, normalmente durante su jornada laboral y en un entorno de oficina.",
+
+    PreferredChannels: [
+        { Name: "Publicidad Tradicional", Value: 1 },
+        { Name: "Online & Social Media", Value: 3 },
+        { Name: "Recomendaciones & sugerencias", Value: 4 },
+        { Name: "Persona de confianza (amigos, boca a boca)", Value: 4 }
+    ]
+}
+];
 		$scope.model = $scope.Personas[0];
 
 	}])
